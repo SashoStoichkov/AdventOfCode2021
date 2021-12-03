@@ -32,5 +32,35 @@ def create_folders(n):
             f.write("    solution(input_data)\n")
 
 
+def rename_md_files(n):
+    for i in range(2, n):
+
+        if i < 10:
+            i = "0" + str(i)
+        else:
+            i = str(i)
+
+        # rename files
+        os.rename("day" + i + "/" + "task" + ".md", "day" + i + "/" + "README" + ".md")
+
+
+def change_contents_of_md_files(n):
+    for i in range(3, n):
+
+        if i < 10:
+            i = "0" + str(i)
+        else:
+            i = str(i)
+
+        # change contents of files
+        with open("day" + i + "/" + "README" + ".md", "w") as f:
+            f.write("# Day " + i + "\n\n")
+            f.write("## Part One\n\n")
+            f.write("## Part Two\n")
+
+
 if __name__ == "__main__":
-    create_folders(25)
+    # create_folders(25)
+    # rename_md_files(25)
+    # change_contents_of_md_files(25)
+    pass

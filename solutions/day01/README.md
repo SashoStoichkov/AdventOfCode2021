@@ -1,4 +1,6 @@
-# Task 01 - Dive!
+# Day 01 - Dive!
+
+## Part One
 
 Now, you need to figure out how to pilot this thing.
 
