@@ -1,4 +1,4 @@
-# Day 00 - Sonar 
+# Day 00 - Sonar
 
 ## Part One
 
@@ -13,6 +13,7 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 As the submarine drops below the surface of the ocean, it automatically performs a sonar sweep of the nearby sea floor. On a small screen, the sonar sweep report (your puzzle input) appears: each line is a measurement of the sea floor depth as the sweep looks further and further away from the submarine.
 
 For example, suppose you had the following report:
+
 ```
 199
 200
@@ -56,13 +57,13 @@ Considering every single measurement isn't as useful as you expected: there's ju
 Instead, consider sums of a three-measurement sliding window. Again considering the above example:
 
 ```
-199  A      
-200  A B    
-208  A B C  
+199  A
+200  A B
+208  A B C
 210    B C D
 200  E   C D
 207  E F   D
-240  E F G  
+240  E F G
 269    F G H
 260      G H
 263        H
