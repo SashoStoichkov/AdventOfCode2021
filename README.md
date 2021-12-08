@@ -1,6 +1,6 @@
 # Solutions for Advent of Code 2021
 
-Advent of Code is a series of challenges that are open-source and are run by a community of thousands of people. Each challenge is run by a group of people, and each challenge has a unique solution. The solutions are released to the public, and are available on GitHub. The solutions are also available on the [adventofcode.com](https://adventofcode.com) website.
+Advent of Code is a series of challenges that are open-source and are run by a community of thousands of people. Each challenge is run by a group of people, and each challenge has a unique solution. The solutions are released to the public, and are available on GitHub. The tasks are also available on the [adventofcode.com](https://adventofcode.com) website.
 
 ## Live Version
 
